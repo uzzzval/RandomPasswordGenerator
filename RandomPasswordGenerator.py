@@ -1,3 +1,4 @@
+#Importing required libraries
 import random, string
 
 #Getting a random value from system
@@ -17,4 +18,5 @@ if int(length)>=8:
     password=""
     for i in  range(0,int(length)):
         password=password+randomSystemValue.choice(setOfAllCharacters)
+    
     print password
